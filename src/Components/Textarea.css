@@ -1,0 +1,36 @@
+.put {
+    width: 470px;
+    height: 548px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.put h2 {
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+}
+
+.put textarea {
+    width: 464px;
+    height: 434px;
+    background-color: #EEE;
+    border: 8px double #FFFFFF;
+    border-radius: 14px;
+    resize: none;
+    font-size:30px;
+}
+
+.put p {
+    display:flex;
+    align-items: center;
+}
+
+.put p:hover {
+    cursor: pointer;
+}
+
+.put span {
+    margin-left: 5px;
+}

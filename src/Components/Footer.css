@@ -1,0 +1,21 @@
+.footer {
+    background: #000;
+    height: 57px;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    display:flex;
+    width: 240px;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    font-weight: 500;
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+}
+

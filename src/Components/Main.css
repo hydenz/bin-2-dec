@@ -1,0 +1,19 @@
+.converter {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 99px 199px 118px 199px;
+}
+
+.converter .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 274px;
+    width: 102px;
+}
+
+.converter .controls svg:first-child:hover {
+    cursor: pointer;
+}

@@ -6,7 +6,7 @@
     background-color: #000;
 }
 
-.header h1 {
+.header__title {
     color:#FFF;
     font-weight: 500;
     font-size:  96px;

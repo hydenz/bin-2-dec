@@ -5,7 +5,7 @@
     margin: 99px 199px 118px 199px;
 }
 
-.converter .controls {
+.controls {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,6 +14,14 @@
     width: 102px;
 }
 
-.converter .controls svg:first-child:hover {
+.btn {
+    margin-top: 2px;
+}
+
+.btn:hover {
     cursor: pointer;
 }
+
+/* .converter .controls svg:first-child:hover {
+    cursor: pointer;
+} */

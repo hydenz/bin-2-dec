@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.footer a {
+.ghlink {
     display:flex;
     width: 240px;
     justify-content: space-between;

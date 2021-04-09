@@ -1,4 +1,4 @@
-.put {
+.texthandler {
     width: 470px;
     height: 548px;
     display: flex;
@@ -6,13 +6,13 @@
     align-items: center;
 }
 
-.put h2 {
+.title {
     font-weight: 500;
     font-size: 36px;
     margin: 0;
 }
 
-.put textarea {
+.value {
     width: 464px;
     height: 434px;
     background-color: #EEE;
@@ -22,15 +22,26 @@
     font-size:30px;
 }
 
-.put p {
-    display:flex;
+.btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:16px;
+    border:none;
+    background: none;
+    display: flex;
     align-items: center;
 }
 
-.put p:hover {
+.btntxt {
+    margin: 0 5px 0;
+}
+
+.btn:hover {
     cursor: pointer;
 }
 
-.put span {
+.btntext  {
+    font-family: Roboto;
     margin-left: 5px;
 }

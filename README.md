@@ -5,7 +5,7 @@ The main intention of the project was to understand and study
 <a href="https://reactjs.org/docs/hooks-effect.html">useEffect</a> from 
 <a href="https://reactjs.org/docs/hooks-intro.html">React Hooks</a>,\
 a technology added in React v16.8.0 that allows using state and other features without using class components.\
-In addition, there was the study of <a href="https://www.npmjs.com/package/big-integer">BigInt</a>, a NumberType that grants good use of numbers larger than\
+In addition, I studied <a href="https://www.npmjs.com/package/big-integer">BigInt</a>, a NumberType that grants good use of numbers larger than\
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER">JavaScript's MAX SAFE INTEGER</a> (2<sup>53</sup> - 1). 
 
 # 🚀 Demo

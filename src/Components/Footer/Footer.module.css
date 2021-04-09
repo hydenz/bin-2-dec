@@ -1,21 +1,21 @@
 .footer {
     background: #000;
-    height: 57px;
-    color: #fff;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    padding-block: .8rem;
 }
 
 .ghlink {
+    width: max-content;
+    margin: 0 auto;
     display:flex;
-    width: 240px;
-    justify-content: space-between;
-    align-items: center;
-    margin:0;
-    font-weight: 500;
-    font-size: 20px;
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1.6rem, .8rem + 1vw, .8rem + 1vw);
     color:#fff;
     text-decoration: none;
 }
 
+.icon {
+    margin-inline: .4rem;
+}

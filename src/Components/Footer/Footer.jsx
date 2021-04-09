@@ -10,7 +10,8 @@ const Footer = () => (
       rel='noreferrer'
       href='https://github.com/hydenz'
     >
-      Made with <RiHeartFill color='#fff' /> by <RiGithubFill color='#fff' />
+      Made with <RiHeartFill className={styles.icon} /> by
+      <RiGithubFill className={styles.icon} />
       hydenz
     </a>
   </footer>

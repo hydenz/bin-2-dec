@@ -1,0 +1,12 @@
+.header {
+    padding-block: 1rem;
+    background-color: #000;
+}
+
+.title {
+    text-align: center;
+    color:#FFF;
+    font-weight: 500;
+    margin: 0;
+    font-size: clamp(1rem, 2rem + 3vw, 2rem + 5vw);
+}

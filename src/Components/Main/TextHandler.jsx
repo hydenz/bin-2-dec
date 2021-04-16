@@ -46,7 +46,12 @@ const TextHandler = ({ title, value, onChange, readOnly }) => {
         readOnly={readOnly}
         onCopy={handleOnCopy}
       />
-      <button type='button' onClick={copyToClipboard} className={styles.btn}>
+      <button
+        type='button'
+        onClick={copyToClipboard}
+        className={styles.btn}
+        aria-label='Copy to clipboard'
+      >
         {clipIcon}
         <span className={styles.btntxt}>{clipboardBtnText}</span>
       </button>

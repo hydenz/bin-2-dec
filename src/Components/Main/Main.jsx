@@ -71,6 +71,7 @@ const Main = () => {
         <RiArrowLeftRightLine
           className={styles.btn}
           onClick={handleBaseChange}
+          aria-label='Swap bases'
         />
       </div>
       <TextHandler
